@@ -4,6 +4,7 @@ import java.util.Properties;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.microsoft.playwright.Page;
@@ -19,9 +20,11 @@ public class BaseTest {
 
 	protected HomePage homePage;
 	protected LoginPage loginPage;
-
+  
+	
 	@Parameters({ "browser" })
 	@BeforeTest
+	
 	public void setup(String browserName) {
 		pf = new PlaywrightFactory();
 
