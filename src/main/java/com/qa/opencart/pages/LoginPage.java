@@ -4,6 +4,7 @@ import com.microsoft.playwright.Page;
 
 public class LoginPage {
 
+	//added comments
 	private Page page;
 
 	// 1. String Locators - OR
