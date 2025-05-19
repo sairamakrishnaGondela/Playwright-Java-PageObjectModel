@@ -21,7 +21,7 @@ public class BaseTest {
 	protected HomePage homePage;
 	protected LoginPage loginPage;
   
-	
+	//added comments
 	@Parameters({ "browser" })
 	@BeforeTest
 	
